@@ -30,8 +30,8 @@
         transform: translate(10%, 0);
     } */
     
-    .about-me h2,
-    .about-me p,
+    .intro h2,
+    .intro p,
     .main-nav {
         width: 40%;
         margin-left: 5%;
@@ -89,15 +89,15 @@
     /* h1 { font-size: 180%; }
     h2 { font-size: 150%; } */
     
-    .about-me h2,
-    .about-me p,
+    .intro h2,
+    .intro p,
     .main-nav {
         width: 22%;
         /* margin-left: 2%; */
     } 
 
-    .about-me h2,
-    .about-me p {
+    .intro h2,
+    .intro p {
         margin-bottom: 20px;
     }
 /*     
@@ -133,11 +133,11 @@
     /* h1 { font-size: 180%; }
     h2 { font-size: 150%; } */
     
-    .about-me h2,
-    .about-me p,
+    .intro h2,
+    .intro p,
     .main-nav {
         margin-bottom: 20px;
-        width: 25%;
+        width: 35%;
     } 
     
     
