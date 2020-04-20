@@ -4,6 +4,10 @@
     .main-nav {
         font-size: 80%;
     }
+
+    .intro {
+        margin: 0 20% 20% 20%; 
+    }
 }
 
 
@@ -17,7 +21,7 @@
     h2 { font-size: 180%; }
 
     .intro {
-        margin-top: 10%; 
+        margin: 0 0 20% 20%; 
     }
     
     .main-nav {
@@ -44,9 +48,8 @@
     }
 
     .intro {
-        margin-top: 20%; 
+        margin: 0 20% 20% 20%; 
     }
-
     
     .intro h2,
     .intro p {
@@ -58,7 +61,7 @@
 
 /* this only applies to widths less than or equal to 480px */
 /* small phones from 0 to 480px */
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
         section { padding: 25px 0; }
 
 
@@ -68,7 +71,7 @@
     }
     
     .intro {
-        margin-top: 20%; 
+        margin: 0 0 20% 20%; 
     }
 
     .intro h2,
@@ -77,4 +80,4 @@
     } 
     
     
-} */
+}
