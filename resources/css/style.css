@@ -40,7 +40,7 @@ section {
     /* background-color: #f7f7f7; */
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
     background-attachment: fixed;
     width: 60%;
     margin-left: 20%;
