@@ -6,7 +6,7 @@
     }
 
     .intro {
-        margin: 0 20% 20% 20%; 
+        margin: 0 0 20% 20%; 
     }
 }
 
@@ -28,13 +28,6 @@
         font-size: 70%;
         width: 80%;
     }
-    
-    .intro h2,
-    .intro p {
-        width: 80%;
-    } 
-
-  
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -48,14 +41,8 @@
     }
 
     .intro {
-        margin: 0 20% 20% 20%; 
+        margin: 0 0 20% 20%; 
     }
-    
-    .intro h2,
-    .intro p {
-        width: 80%;
-    } 
-
 }
 
 
@@ -64,21 +51,12 @@
 @media only screen and (max-width: 480px) {
         section { padding: 25px 0; }
 
-
     .main-nav {
         font-size: 40%;
         width: 100%;
-        padding-bottom: 10%;
     }
     
     .intro {
         margin: 0 0 20% 20%; 
     }
-
-    .intro h2,
-    .intro p {
-        width: 80%;
-    } 
-    
-    
 }
