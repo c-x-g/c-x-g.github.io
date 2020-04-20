@@ -72,38 +72,15 @@ section {
 }
 
 
-/* ------------------------------------------------- */
-/* About me */
-/* ------------------------------------------------- */
-
-/* .about-me {
-    width: 1140px;
-    margin: 0 auto;
-}
-
-.about-me h2,
-.about-me p {
-    color: #2193b0;
-    margin-bottom: 65px;
-}
-
-
-.about-me h2,
-.main-nav, 
-.about-me p {
-    width: 70%;
-    margin-left: 8%;
-} 
-
-.about-me h2 {
-    font-weight: 700;
-} */
 
 .main-nav li {
     display: inline-block;
     margin-right: 5px;
 }
 
+.nav-bar {
+    padding: 5% 0;
+}
 
 /* ------------------------------------------------- */
 /* Icons */
