@@ -1,23 +1,12 @@
 /*Big tablet to pc */
 
 @media only screen and (max-width: 1200px) {
-  .main-nav {
-    font-size: 80%;
-  }
-
-  .intro {
-    margin: 0 0 20% 20%;
-  }
 }
 
 /* small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
   body {
     font-size: 18px;
-  }
-
-  section {
-    padding: 60px 0;
   }
 
   h1 {
@@ -27,13 +16,8 @@
     font-size: 180%;
   }
 
-  .intro {
-    margin: 0 0 20% 20%;
-  }
-
-  .main-nav {
-    font-size: 70%;
-    width: 80%;
+  .main-nav li {
+    font-size: 100%;
   }
 }
 
@@ -42,13 +26,16 @@
   body {
     font-size: 16px;
   }
-  section {
-    padding: 30px 0;
-  }
 
   .main-nav {
-    font-size: 60%;
-    width: 80%;
+    font-size: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-nav li {
+    margin-right: 0px;
+    margin-bottom: 25px;
   }
 
   .intro {
@@ -64,16 +51,13 @@
   }
 
   .main-nav {
-    width: 100%;
+    font-size: 90%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .main-nav li {
-    display: inline-block;
-  }
-
-  .intro {
-    margin: 0 0 20% 20%;
+    margin-right: 0px;
+    margin-bottom: 25px;
   }
 }
