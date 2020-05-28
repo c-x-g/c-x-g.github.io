@@ -65,11 +65,17 @@ section {
   font-size: 120%;
   /* padding-top: 20%; */
   /* position: absolute; */
-  /* transform: translate(25%,0); */
+  /* transform
+  : translate(25%,0); */
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .main-nav li {
-  display: inline-flex;
+  display: inline-block;
   margin-right: 5px;
 }
 

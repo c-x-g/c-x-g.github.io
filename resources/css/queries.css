@@ -65,7 +65,12 @@
 
   .main-nav {
     width: 100%;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .main-nav li {
+    display: inline-block;
   }
 
   .intro {
