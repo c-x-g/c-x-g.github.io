@@ -69,7 +69,7 @@ section {
 }
 
 .main-nav li {
-  display: inline-block;
+  display: inline-flex;
   margin-right: 5px;
 }
 
