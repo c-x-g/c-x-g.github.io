@@ -64,8 +64,8 @@
   }
 
   .main-nav {
-    font-size: 45%;
-    width: 80%;
+    width: 100%;
+    display: flex;
   }
 
   .intro {
